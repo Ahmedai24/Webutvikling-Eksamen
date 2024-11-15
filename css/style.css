@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .ruter{
@@ -15,3 +16,8 @@
     font-weight: bold;
 }
 
+img{
+    max-width: 100%;
+    width: fit-content;
+    
+}
