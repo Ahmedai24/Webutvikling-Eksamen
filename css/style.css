@@ -21,3 +21,34 @@ img{
     width: fit-content;
     
 }
+
+.sosialemedier{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.snarveier{
+    display: flex;
+    flex-direction: column;
+}
+
+.hovedbilder{
+    max-width: 100%;
+    width: fit-content;
+}
+
+.Merkenavn{
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.produktinfo{
+ font-size: 20px;   
+}
+
+.Dine-opplysninger{
+    display: flex;
+    flex-direction: column;
+}
