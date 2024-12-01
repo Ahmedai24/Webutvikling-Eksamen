@@ -9,24 +9,31 @@
   </head>
 <body>
     <header>
-        <form>
+        <form class="søkher">
             <input type="search" placeholder="Søk her">
                 <button type="submit" title="Søk">
                     <i class="fa-solid fa-magnifying-glass"></i>
             </button>
             </form>
-        <nav>
+        <nav class="navigasjon">
             <ul>
                 <li><a href="index.html">Hjem</a></li>
-                <li><a href="#popular-products">Produkter</a></li>
+                <li><a href="index.html#Populære-produkter">Produkter</a></li>
                 <li><a href="index.html"><h1> Eksamen</h1></a></li>
-                <li>Katgorier</li>
-                <li><a href="#">Kontakt Oss</a></li>
+                <li><a href="index.html#populære-kategorier">kategorier</a></li>
+                <li><a href="#footer">Kontakt Oss</a></li>
             </ul>
-            <a href="checkout.html" class="cart-icon"></a>
-            <i class="fa-solid fa-user"></i>
-            <i class="fa-regular fa-heart"></i>
-             <i class="fa-solid fa-cart-shopping"></i>
+
+            <ul>
+                
+                    
+                <li><i class="fa-solid fa-user"></i></li>
+                <li><i class="fa-regular fa-heart"></i></li>
+                 <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                
+                </ul>
+
+            
         </nav>
         
     </header>
@@ -36,7 +43,7 @@
             <p>Pellentesque et lacus lacus. Cras pharetra mattis tortor ac aliquet. Aliquam in leo eros. Aliquam erat volutpat</p>
             <button>FÅ EN PRØVE PAKKE I DAG</button>
         </section>
-        <section>
+        <section id="Populære-produkter">
             <h2>Våre mest populære produkter</h2>
             <p>Oppdag det beste av det beste</p>
             <div class="tre-ruter">
@@ -44,57 +51,81 @@
                 <div class="ruter">Special Price</div>
                 <div class="ruter">Beste Sellers</div>
         </div>
-        <article>
+        <article class="produktkort">
             <img src="img/Kamera.jpg" alt="Kamera">
-            <h4>Kamera</h4>
+            <a href="produkt.html"><h4>Kamera</h4></a>
             <p>Kr 9999</p>
         </article>
-        <article>
+        <article class="produktkort">
             <img src="img/Kamera.jpg" alt="Kamera">
-            <h4>Kamera</h4>
+            <a href="produkt.html"><h4>Kamera</h4></a>
             <p>Kr 9999</p>
         </article>
-        <article>
+        <article class="produktkort">
             <img src="img/Kamera.jpg" alt="Kamera">
-            <h4>Kamera</h4>
+            <a href="produkt.html"><h4>Kamera</h4></a>
             <p>Kr 9999</p>
         </article>
-        <article>
+        <article class="produktkort">
             <img src="img/Kamera.jpg" alt="Kamera">
-            <h4>Kamera</h4>
+            <a href="produkt.html"><h4>Kamera</h4></a>
             <p>Kr 9999</p>
         </article>
-        <article>
+       
+        <article class="produktkort">
             <img src="img/Kamera.jpg" alt="Kamera">
-            <h4>Kamera</h4>
+            <a href="produkt.html"><h4>Kamera</h4></a>
             <p>Kr 9999</p>
         </article>
-        <article>
+       
+        <article class="produktkort">
             <img src="img/Kamera.jpg" alt="Kamera">
-            <h4>Kamera</h4>
+            <a href="produkt.html"><h4>Kamera</h4></a>
             <p>Kr 9999</p>
         </article>
-
+        
         </section>
+        
+        <section id="populære-kategorier">
+            <h1>Våre mest populære kategorier</h1>
+            <p>Oppdag det beste av det beste</p>
+        
+        <ul class="kategorier">
+            <li class="category-item">Kategori 1</li>
+            <li class="category-item">Kategori 2</li>
+            <li class="category-item">Kategori 3</li>
+            <li class="category-item">kategori 4</li>
+            <li class="category-item">kategori 5</li>
+
+        </ul>
+        
+        </section>
+           
+           
+        
         <section>
             <h3>Anmeldelser</h3>
-        <article>
-            <img src="img/Dame.jpg" alt="Dame">
+       
+            <article>
+            <img src="img/Dame.jpg" alt="Dame" class="Dama">
             <h4>Louise Goat</h4>
             <p>In sollicitudin ut teonsequat. Nullam varius, nisl id bibendum porta, justo lectus sodales lacus, eu tristique libero magna eu magna</p>
         </article>
+       
         <article>
-            <img src="img/Dame.jpg" alt="Dame">
+            <img src="img/Dame.jpg" alt="Dame" class="Dama">
             <h4>Louise Goat</h4>
             <p>In sollicitudin ut teonsequat. Nullam varius, nisl id bibendum porta, justo lectus sodales lacus, eu tristique libero magna eu magna</p>
         </article>
+       
         <article>
-            <img src="img/Dame.jpg" alt="Dame">
+            <img src="img/Dame.jpg" alt="Dame" class="Dama">
             <h4>Louise Goat</h4>
             <p>In sollicitudin ut teonsequat. Nullam varius, nisl id bibendum porta, justo lectus sodales lacus, eu tristique libero magna eu magna</p>
         </article>
+       
         <article>
-            <img src="img/Dame.jpg" alt="Dame">
+            <img src="img/Dame.jpg" alt="Dame" class="Dama">
             <h4>Louise Goat</h4>
             <p>In sollicitudin ut teonsequat. Nullam varius, nisl id bibendum porta, justo lectus sodales lacus, eu tristique libero magna eu magna</p>
         </article>
@@ -103,7 +134,7 @@
        
 
     </main>
-    <footer>
+    <footer id="footer">
         <section>
             <h2>Logo</h2>
             <p></p>
@@ -118,8 +149,8 @@
         <section class="snarveier">
             <h4>Snarveier</h4>
             <a href="produkt.html">Produkter</a>
-            <a href="#">Katgorier</a>
-            <a href="#">Kontakt oss</a>
+            <a href="index.html#populære-kategorier">Katgorier</a>
+            <a href="#footer">Kontakt oss</a>
         </section>
         <section class="sosialemedier">
             <h4>Sosiale Medier</h4>

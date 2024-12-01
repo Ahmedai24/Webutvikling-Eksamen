@@ -15,19 +15,26 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
             </button>
             </form>
-        <nav>
-            <ul>
-                <li><a href="index.html">Hjem</a></li>
-                <li><a href="#popular-products">Produkter</a></li>
-                <li><a href="index.html"><h1> Eksamen</h1></a></li>
-                <li>Katgorier</li>
-                <li><a href="#">Kontakt Oss</a></li>
-            </ul>
-            <a href="checkout.html" class="cart-icon"></a>
-            <i class="fa-solid fa-user"></i>
-            <i class="fa-regular fa-heart"></i>
-             <i class="fa-solid fa-cart-shopping"></i>
-        </nav>
+            <nav class="navigasjon">
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="index.html#Populære-produkter">Produkter</a></li>
+                    <li><a href="index.html"><h1> Eksamen</h1></a></li>
+                    <li><a href="index.html#populære-kategorier">kategorier</a></li>
+                    <li><a href="#footer">Kontakt Oss</a></li>
+                </ul>
+    
+                <ul>
+                
+                    
+                    <li><i class="fa-solid fa-user"></i></li>
+                    <li><i class="fa-regular fa-heart"></i></li>
+                     <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    
+                    </ul>
+    
+                
+            </nav>
         
     </header>
     <main>
@@ -68,15 +75,94 @@
                 <label for="Poststed">Poststed</label>
                 <input type="text" id="Poststed" name="Poststed" placeholder="Poststed" required>
 
-                    <button type="submit" class="save-button">Lagre</button>
+                    <button type="submit"  class="submit-button">Lagre</button>
                 
 
             </form>
         </section>
+        
+        <section class="levering-seksjon">
+            <h2>3. Levering</h2>
+            <p>Leveringsvalg</p>
+            <div class="radio-option">
+                <input type="radio" id="express-home" name="delivery" value="express-home">
+                <label for="express-home">Express Hjemmelevering</label>
+        </div>
+        
+        <div class="radio-option">
+            <input type="radio" id="pickup-point" name="delivery" value="pickup-point">
+            <label for="pickup-point">Express pakke til utleveringssted</label>
+        </div>
 
+        <div class="radio-option">
+            <input type="radio" id="standar-home" name="delivery" value="standar-home">
+            <label for="standar-home">Standard hjemmelevering</label>
+        </div>
+        </section>
 
+        <section class="payment-section">
+            <h2>4. betaling</h2>
+            <p>Betal med kort</p>
+            <form class="Dine-opplysninger">
+            <label for="card-number">Kortnummer</label>
+            <input type="text" id="card-number" name="card-number" placeholder="342342****4435" required>
 
+            <label for="expiry-date">Utløpende</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="mm/dd/yyyy" required> 
 
+            <label for="cvc">CVC/CW</label>
+            <input type="text" id="cvc" placeholder="CVC/VW" required>
+
+            <div class="price-summary">
+                <p>Å betale inkl. mva.</p>
+                <p class="Price">1 199 kr</p>
+            </div>
+
+            <button type="submit" class="submit-button">Fullfør kjøpt</button>
+
+            <p class="terms">
+                Du bekrefter herved at opplysningene og dokumentene du har oppgitt er korrekte og fullstendige.
+                    Leverandøren forbeholder seg retten til å heve eller avslutte avtaleforholdet dersom det foreligger uriktige eller
+                    ufullstendige opplysninger.
+            </p>
+
+            <div class="checkbox-gruppe">
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Ja takk! Send nyhetsbrev til meg.</label>
+
+                <input type="checkbox" id="sms-offers" name="sms-offers">
+                <label for="sms-offers">Jeg ønsker å motta tekstmeldinger med tilbud og nyheter.</label>
+            </div>
+        </form>
+        </section>
     </main>
+    <footer id="footer">
+        <section>
+            <h2>Logo</h2>
+            <p></p>
+        </section>
+        <section>
+            <h4>Kontakt</h4>
+            <p><i class="fa-solid fa-location-dot"></i><strong>Adresse:</strong>B R A Veien 7, 1857 Halden</p>
+            <p><i class="fa-solid fa-phone"></i><strong>Telefon:</strong>69 60 80 00</p>
+            <p><i class="fa-solid fa-envelope"></i><strong>E-post:</strong>halden@hiof.no</p>
+            <p><i class="fa-solid fa-clock"></i><strong>Åpningstider:</strong>Stenger 15:00</p>
+        </section>
+        <section class="snarveier">
+            <h4>Snarveier</h4>
+            <a href="produkt.html">Produkter</a>
+            <a href="index.html#populære-kategorier">Katgorier</a>
+            <a href="#footer">Kontakt oss</a>
+        </section>
+        <section class="sosialemedier">
+            <h4>Sosiale Medier</h4>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://nb-no.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://no.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://no.pinterest.com/"><i class="fa-brands fa-pinterest"></i></a>
+        </section>
+    </footer>
+    
 </body>
 </html>
+            
